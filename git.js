@@ -74,6 +74,7 @@ class Person {
     }
   }
   
+  
   const s1 = new Student(
     'Asabeneh',
     'Yetayeh',
