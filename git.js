@@ -18,7 +18,7 @@ class Person {
       return this.score
     }
     get getSkills() {
-      return this.skills
+      return this.skills    
     }
     set setScore(score) {
       this.score += score
