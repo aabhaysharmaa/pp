@@ -1,5 +1,4 @@
 
-
 // class Person {
 //     constructor(firstName, lastName, age, country, city) {
 //       this.firstName = firstName
@@ -105,14 +104,12 @@
 //   console.log(s2.getFullName())
 //   console.log(s2.getPersonInfo())
 
-let count = 0;
-const nums = [0, 1, 2, 3];
-nums.forEach(num => {
-  if (num) {
-    count = count + 1
+const objLostContext = {
+  name: "Chris",
+  greet: function() {
+    console.log(this.name);
   }
-})
+};
 
-console.log(count)
-
-// Git branch 
+const greetFunc = objLostContext.greet;
+greetFunc();
