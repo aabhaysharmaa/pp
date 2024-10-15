@@ -111,5 +111,11 @@ const objLostContext = {
   }
 };
 
+
+
+
+
+
+
 const greetFunc = objLostContext.greet;
 greetFunc();
