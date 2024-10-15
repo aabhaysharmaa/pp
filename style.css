@@ -1,9 +1,12 @@
 
-*{ 
+
+h1{ 
     padding : 0px;
     padding: 3px;
 
 
-
+} 
+* {
+    padding: 3px;
 
 }
